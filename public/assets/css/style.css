@@ -66,6 +66,11 @@
     .tfd{width:330px;height:400px; border-radius: 50%;}
     /* homepage theme */
     .container_start_theme{width:350px;height:400px;margin:-40px 50px -50px 0;z-index:1;float:right;position:relative;}
+
+    /* opgeven theme */
+    .container_theme_opgeven{width:350px;height:400px;margin:0;z-index:1;position:absolute;top:0;left:600px;z-index:-1; border-radius: 50%;}
+    .container_theme_opgeven.info{margin:-50px 0 0 0px;}
+    .previousYears{margin-right:50px;}
     /* gift search fix */
     #filter-category ul{list-style-type:none;}
     .copyright{font-size:11px;line-height:0px;color:#757575; padding:14px 0 15px 0; margin: 0px 10px 9px 10px;}
@@ -118,9 +123,11 @@ div#myanimation{
 }
 
 
+
 body{ 
     background-color:A9A9A9; 
 }
+body { background-color:A9A9A9; }
 #snow{
     background: none;
     font-family: Androgyne;
