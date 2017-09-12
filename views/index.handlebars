@@ -9,13 +9,14 @@
 <div class="container_content">
 	
 	<div class="container_split">
-      	<h1>Secret Santa Generator!</h1>
-      	<p>Enter the names and email addresses for the gift exchange.<br>Our Secret Santa Generator will handle the rest!<br><br>
-      	<form action="/home" id="addlottery" method="get" novalidate="novalidate">
-      		<input type="submit" name="nextStep" value="Create an Account">
-      		<input type="submit" name="nextStep" value="Log In">
-      	</form>
+    <h1>Secret Santa Generator!</h1>
+    <p>Enter the names and email addresses for the gift exchange.<br>Our Secret Santa Generator will handle the rest!<br><br>
+
+    <div id="login-area">
+      <button class="btn btn-primary btn-lg" id="register-button"><h2>Create an Account</h2></button><br><br>
+      <button class="btn btn-primary btn-lg" id="login-button"><h2>Log In</h2></button>
     </div>
+  </div>
 
 	<img class="tfd" src="https://www.secretsantaorganizer.com/bundles/intractosecretsanta/img/ico/social.jpg" alt="Draw names">
 
@@ -36,4 +37,13 @@
 <div class="border_footer"></div>
 <div class="copyright">Copyright © 2017 Secret Santa Team ®</div>
 </div>
+
+<script type="text/javascript">
+  $(document).ready(function(){
+    $("#register-button").on("click", function(){
+      $("login-area")
+    })
+  });
+
+</script>
   
