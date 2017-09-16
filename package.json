@@ -18,12 +18,22 @@
   },
   "homepage": "https://github.com/KKuhn09/secret-santa#readme",
   "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
     "body-parser": "^1.18.0",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.3",
     "express": "^4.15.4",
     "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.5",
     "method-override": "^2.3.9",
+    "mongodb": "^2.2.31",
+    "mongodb-stitch": "0.0.25",
+    "mongoose": "^4.11.11",
+    "morgan": "^1.8.2",
     "mysql": "^2.14.1",
+    "mysql2": "^1.4.2",
     "passport": "^0.4.0",
-    "passport-local": "^1.0.0"
+    "passport-local": "^1.0.0",
+    "sequelize": "^4.8.3"
   }
 }
