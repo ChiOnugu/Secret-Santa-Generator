@@ -14,4 +14,24 @@ router.get("/", function(req, res){
 	});
 });
 
+router.get("/home", function(req, res){
+	user.all(function(data){
+		var hbsObject = {
+			users: data
+		};
+		console.log(hbsObject);
+		res.render("home", hbsObject);
+	});
+});
+
+router.get("/home/:group", function(req, res){
+	user.all(function(data){
+		var hbsObject = {
+			users: data
+		};
+		console.log(hbsObject);
+		res.render("group", hbsObject);
+	});
+});
+
 module.exports = router;
